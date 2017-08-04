@@ -1,8 +1,8 @@
 www.geotrophy.net
 
-#GeoPuzzle
+# GeoPuzzle
 
-##CZ
+## CZ
 
 Tento skript slouží ke generování GeoPuzzle trofejí z waypoyntů exportovaných aplikací C:GEO. Stačí, když máte někde soubory .gpx, a ovládání je pak již velice jednoduché.
 
@@ -16,7 +16,7 @@ pro vice informaci spuste `./geopuzzle-gen.py -h`.
 
 Je tady pak jeste `make all`, které vygeneruje kód pro všechny typy GeoPuzzlí a ulozi je do souboru `all_puzzles`.
 
-##EN
+## EN
 
 This script is used to generate GeoPuzzle trophys from gpx files exported using C:GEO app. All you need is your .gpx files.
 
