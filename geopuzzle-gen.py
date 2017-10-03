@@ -1,7 +1,12 @@
 #!/usr/bin/python
 from xml.etree import ElementTree as ET
 from pyquery import PyQuery as pq
-import os, argparse, logging, urllib.request, sys, math
+import os
+import argparse
+import logging
+import urllib.request
+import sys
+import math
 
 server = "http://www.geotrophy.net/GeoPuzzle/?puzzle="
 image_names = ["kopecky-cz-v2", "kopecky-sk-v2", "rekordy-cz-v2", "hrady-sk-v2", "hrady-cz-v2", "kostely-sk-v2", "kostely-cz-v2", None, "rozhledny-cz-v2", "hrady-hu-v2", "jeskyne-sk-v2", "summits-v2", "zamky-cz-v2", "tatry-v2", "rozhledny-sk-v2", "pivovary-cz-v2", "bazalt-v2", "domy-cz-v2", "krize-v2", "unesco-de-v2", "hrady-si-v2"]
